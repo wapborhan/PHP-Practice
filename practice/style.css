@@ -1,0 +1,53 @@
+<?php
+$fonts = "verdana";
+$bgcolor = "#888";
+?>
+
+body {
+    color: black;
+}
+
+#site {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    color: #ffffff;
+}
+
+h2 {
+    background: blueviolet;
+    padding: 10px 20px;
+}
+
+.head,
+.foot {
+    padding: 30px 0px;
+    background: #888888;
+    ;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: <?php echo $fonts ?>;
+}
+
+.main {
+    padding: 30px;
+}
+
+.main h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+#footer {
+    color: #444444;
+}
+
+input#fname {
+    background:#ffffff;
+    padding: 5px 10px;
+}
