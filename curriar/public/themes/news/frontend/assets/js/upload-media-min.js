@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(document).on("click",".upload_image_button",function(){return jQuery.data(document.body,"prevElement",$(this).prev()),window.send_to_editor=function(e){var t=jQuery("img",e).attr("src"),o=jQuery.data(document.body,"prevElement");void 0!=o&&""!=o&&o.val(t),tb_remove()},tb_show("","media-upload.php?type=image&TB_iframe=true"),!1})});

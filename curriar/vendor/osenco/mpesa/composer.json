@@ -1,0 +1,22 @@
+{
+    "name": "osenco/mpesa",
+    "description": "Intuitive Mpesa SDK for PHP Apps. Just Plug 'N Play",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osen Concepts",
+            "email": "hi@osen.co.ke"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Osen\\Mpesa\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    }
+}

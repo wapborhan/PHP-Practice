@@ -1,0 +1,58 @@
+{
+    "name": "aldmohy/spotlayer-check",
+    "description": "A private package for checking and validating the purchase codes for spotlayer items",
+    "keywords": [
+        "aldmohy",
+        "spotlayer-check"
+    ],
+    "homepage": "https://github.com/aldmohy/spotlayer-check",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aldmohy",
+            "email": "eng.aldmohy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "6.*",
+        "guzzlehttp/guzzle": "5.*|6.*"
+    },
+    "require-dev":{
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "satooshi/php-coveralls": "^0.7.0",
+        "mockery/mockery": ">=0.7.2",
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aldmohy\\SpotlayerCheck\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aldmohy\\SpotlayerCheck\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldmohy\\SpotlayerCheck\\SpotlayerCheckServiceProvider"
+            ],
+            "aliases": {
+                "SpotlayerCheck": "Aldmohy\\SpotlayerCheck\\SpotlayerCheckFacade"
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+.error404 {
+  .bd-main {
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+    padding: 50px 50px 65px;
+
+    @media (max-width: 767px) {
+      padding: 40px 0;
+    }
+    .bdaia-search-form {
+      margin: 30px auto;
+      text-align: center;
+
+      form {
+        max-width: 400px;
+
+        > label {
+          input {
+          }
+        }
+
+        @media (max-width: 767px) {
+          max-width: 310px;
+
+          > label {
+            width: calc((100% - 70px));
+          }
+
+          input.search-submit {
+            max-width: 70px;
+          }
+        }
+        margin: 0 auto;
+      }
+    }
+    > h2{
+      margin: 0;
+      padding: 0;
+      font-size: 80px;
+      font-weight: 700;
+      text-align: center;
+
+      @media (min-width: 767px) {
+        font-size: 250px;
+      }
+
+      letter-spacing: -.04em;
+    }
+    > h3{
+      margin: 10px auto;
+      padding: 0;
+      color: #AAA;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+    > h4{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-weight: 400;
+
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
+    }
+
+    /*! Clear ----- */
+    &:before,
+    &:after{content:"\0020";display: block;height:0;overflow:hidden}
+    &:after{clear:both}
+
+    li.articles-box-item {
+      text-align: inherit;
+    }
+  }
+}

@@ -1,0 +1,340 @@
+// Mixins
+// --------------------------
+
+@mixin fa-icon() {
+  display: inline-block;
+  font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+@mixin fa-icon-rotate($degrees, $rotation) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
+  -webkit-transform: rotate($degrees);
+      -ms-transform: rotate($degrees);
+          transform: rotate($degrees);
+}
+
+@mixin fa-icon-flip($horiz, $vert, $rotation) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
+  -webkit-transform: scale($horiz, $vert);
+      -ms-transform: scale($horiz, $vert);
+          transform: scale($horiz, $vert);
+}
+
+
+// Only display content to screen readers. A la Bootstrap 4.
+//
+// See: http://a11yproject.com/posts/how-to-hide-content/
+
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin background-opacity($color: #000, $opacity: 0.85){
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+@mixin background-size($width: 100%, $height: $width){
+  @if type-of($width) == 'number' and $height != null{
+    background-size: #{$width} #{$height};
+  } @else{
+    background-size: #{$width};
+  }
+}
+
+// rem fallback - credits: http://zerosixthree.se/
+@function calculateRem($size){
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+// font size
+@mixin font-size($size){
+  font-size: $size;
+  //font-size: calculateRem($size);
+}
+
+// center vertically and/or horizontally an absolute positioned element
+@mixin center($xy:xy){
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+}
+
+// placeholder
+@mixin placeholder {
+  $placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
+}
+
+//Clearfix
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// media query mixins
+@mixin breakpoint($point){
+  // as bootstrap breakpoint
+  @if $point == lg{
+    @media (min-width: $screen-lg-min){ @content; }
+  }
+  @else if $point == md{
+    @media (min-width: $screen-md-min){ @content; }
+  }
+  @else if $point == sm{
+    @media (min-width: $screen-sm-min){ @content; }
+  }
+  @else if $point == xs{
+    @media (min-width: $screen-xs-min){ @content; }
+  }
+
+  @else if $point == max_min_xs{
+    @media (max-width: $screen-xs-min-1){ @content; }
+  }
+  @else if $point == max_min_sm{
+    @media (max-width: $screen-xs-max){ @content; }
+  }
+  @else if $point == max_min_md{
+    @media (max-width: $screen-sm-max){ @content; }
+  }
+  @else if $point == max_min_lg{
+    @media (max-width: $screen-md-max){ @content; }
+  }
+}
+
+// custom breakpint
+@mixin breakpoint_max($max-width){
+  @media (max-width: $max-width){ @content; }
+}
+
+@mixin breakpoint_min($min-width){
+  @media (min-width: $min-width){ @content; }
+}
+
+@mixin breakpoint_min_max($min-width,$max-width){
+  @media only screen and (min-width: $min-width) and (max-width: $max-width){ @content; }
+}
+
+//Weather icons Mixins
+@mixin bdaia-rain-effect {
+  @keyframes(rain-animi-effect){
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(3em);
+    }
+  }
+
+  @keyframes(rain-animi-effect-with-rotate){
+    0% {
+      opacity: 1;
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(1em) rotate(360deg);
+    }
+  }
+
+  @keyframes(drizzle-animi-effect){
+    0% {
+      opacity: 1;
+      transform: translateY(0) translateX(0) rotate(10deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(3em) translateX(-3em) rotate(20deg);
+    }
+  }
+
+  position: relative;
+  &:before,
+  &:after {
+    content: "\f107";
+    position: absolute;
+    @include font-size(60px);
+    left: 0;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    // transform: translateZ(0);
+  }
+
+  &:after {
+    opacity: 0;
+    // animation: rain-animi-effect 1s ease-out infinite;
+    animation-fill-mode: forwards;
+  }
+}
+
+// Woocommerce :: Fontawesome Mixins
+// Mixins
+// --------------------------
+$fa-font-size-base:   1em;
+$fa-line-height-base: 1 !default;
+
+@mixin fa-icon(){
+  display: inline-block;
+  font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+@mixin fa-icon-rotate($degrees, $rotation){
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
+  transform: rotate($degrees);
+}
+
+@mixin fa-icon-flip($horiz, $vert, $rotation){
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
+  transform: scale($horiz, $vert);
+}
+
+// --------------------------------------------------------------------------------
+// get the contrast color based on it's background and vice versa
+// Luminance based measurement
+// --------------------------------------------------------------------------------
+
+@function gcd($a, $b){
+  // From: http://rosettacode.org/wiki/Greatest_common_divisor#JavaScript
+  @if ($b !=0){
+    @return gcd($b, $a % $b);
+  }
+  @else {
+    @return abs($a);
+  }
+}
+
+@function pow($base, $exponent, $prec: 12){
+  // Handles decimal exponents by trying to convert them into a fraction and then use a nthRoot-algorithm for parts of the calculation
+  @if (floor($exponent) !=$exponent){
+    $prec2: pow(10, $prec);
+    $exponent: round($exponent * $prec2);
+    $denominator: gcd($exponent, $prec2);
+    @return nthRoot(pow($base, $exponent / $denominator), $prec2 / $denominator, $prec);
+  }
+  $value: $base;
+  @if $exponent > 1 {
+    @for $i from 2 through $exponent {
+      $value: $value * $base;
+    }
+  }
+  @else if $exponent < 1 {
+    @for $i from 0 through -$exponent {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function nthRoot($num, $n: 2, $prec: 12){
+  // From: http://rosettacode.org/wiki/Nth_root#JavaScript
+  $x: 1;
+  @for $i from 0 through $prec {
+    $x: 1 / $n * (($n - 1) * $x + ($num / pow($x, $n - 1)));
+  }
+  @return $x;
+}
+
+
+@function luma($color){
+  // Adapted from: https://gist.github.com/voxpelli/6304812
+  $rgba: red($color), green($color), blue($color);
+  $rgba2: ();
+  @for $i from 1 through 3 {
+    $rgb: nth($rgba, $i);
+    $rgb: $rgb / 255;
+    $rgb: if($rgb < .03928, $rgb / 12.92, pow(($rgb + .055) / 1.055, 2.4));
+    $rgba2: append($rgba2, $rgb);
+  }
+  @return (.2126 * nth($rgba2, 1) + .7152 * nth($rgba2, 2) + 0.0722 * nth($rgba2, 3))*100;
+}
+
+@function color-contrast($color){
+  @return if(luma($color) < 51, #ffffff, #000000)
+}
+
+// Spinner Cirlce Width
+@mixin spinner-width($spinner-width){
+  .spinner-circle{
+    top: - $spinner-width / 2;
+    left: - $spinner-width / 2;
+    height: $spinner-width;
+    width: $spinner-width;
+    clip: rect(0, $spinner-width, $spinner-width, ($spinner-width / 2) );
+
+    &:after{
+      left: 0;
+      top: 0;
+      height: $spinner-width;
+      width: $spinner-width;
+      clip: rect(0, $spinner-width, $spinner-width, ($spinner-width / 2))
+    }
+  }
+}

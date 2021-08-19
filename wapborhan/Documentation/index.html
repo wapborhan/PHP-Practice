@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Documentation - AstaRCMS - Magazine News & Blog PHP Script</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<style type="text/css">
+	body { 
+		font-family: 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; 
+		font-size: 14px; 
+		background: #e8ebed; 
+		color: #000; 
+		}
+	a {
+		color: #4c66a4;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #1e346a;
+		text-decoration: underline;
+	}
+	.container {
+    	padding: 0 20px 10px 10px;
+		}
+	.row {
+		box-shadow: 0px 1px 1px #CCC;
+		border: 1px solid #BFBFBF;
+		background: #FFF;
+		color: #6B6B6B;
+		border-radius: 3px;
+		padding: 5px;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 900px;
+		overflow: auto;
+		}
+	.hr {
+		height: 1px;
+		width: 100%;
+		background: #DEE0E3;
+		margin-bottom: 10px;
+		float: left;
+		}
+	.menu {
+		float: right;
+		margin: 10px 0;
+		text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<span style="color: #5BC16E; font-weight: bold; font-size: 30px;">AstaR</span><span style="color: #3B92CC; font-weight: bold;font-size: 30px;">CMS</span>
+			<div style="color: #000000; font-weight: bold; font-size: 15px; text-decoration: underline;">Magazine News & Blog PHP Script</div>
+			<div class="menu">
+				<a href="#description">Description & Features</a>
+				<a href="#requirements">Requirements</a>
+				<a href="#installation">Installation & Configuration</a>
+				<a href="#credits">Credits</a>
+			</div>
+		</div>
+		<div class="row" id="description">
+			<h2><u><strong>Description</strong></u></h2>
+			<p>AstaRCMS is a multi-purpose CMS (Content Management System). It can be used for blogs, portals, company and agency websites, magazines, newspapers and many other. It is clean, simple, lightweight, responsive and user-friendly.</p>
+			<h2><u><strong>Features</strong></u></h2>
+			<ul>
+				<li>Posts: Posts can be added, edited and deleted.&nbsp;WYSIWYG HTML&nbsp;editor. Users can also added &amp; edited post after registration. But can&#39;t be delete posts.&nbsp;User post will be published, if admin approved this post.</li>
+				<li>Categories: Only admin can create categories.&nbsp;Posts can be separated to categories.&nbsp;Every categories will have different permalink. Permalink will be generated automatically. Suppose, you have created a category named &quot;Android Apps Review&quot;.&nbsp;The permalink for &quot;Android Apps Review&quot; will be &quot;android-apps-review&quot; and the link of the category will be &quot;https://yoursitename.com/category/android-apps-review&quot;.&nbsp;You can change the permalink later.</li>
+				<li>Comments:&nbsp;Users &amp; guest can share their opinion in the comments section of the posts. Registered users comments will be published instantly.&nbsp;But guests&nbsp;comments will be published after admin approvel.&nbsp;Duplicate comments detection &amp; captcha verification feature.</li>
+				<li>Users Registration: User-friendly login, registration page and dashboard.</li>
+				<li>Search Module:&nbsp;Searches for posts and displays results as a list in seach page.</li>
+				<li>Pages: HTML supported&nbsp;About Us, Contact Us, Advertise &amp;&nbsp;Privacy&nbsp;Policy page. Built-in contact us form in contact us page with captcha. You can change page status from active to inactive and inactive to active.</li>
+				<li>Responsive Design:&nbsp;Looks good on many devices and screen resolutions.</li>
+				<li>Advertisement: Advertisement module allows you to monetize your site. You can put advertisement in&nbsp;different place.</li>
+				<li>Seo Friendly Url: Seo friendly posts, page, categories and pagination url.</li>
+				<li>Admin Panel:&nbsp;The whole website can be managed via the Admin Panel. Admin can create/edit/delete&nbsp;post, category, media, activate or inactivate user, change user password and many more.</li>
+				<li>Site Settings:&nbsp;Dynamically update site logo, favicon, title, subtitle, keywords, social link etc.</li>
+				<li>Post Per Page: Admin can set how many post can be displayed in home page, search page &amp; category page.</li>
+				<li>Theme:&nbsp;Many themes are added by default.</li>
+				<li>Post View Count: Display post view counter in post page and admin dashboard.</li>
+				<li>XML sitemap: Posts link will added automatically in sitemap.xml file. Sitemap link:&nbsp;https://yoursitename.com/sitemap.xml</li>
+			</ul>
+			<p>and many more...</p>
+		</div>
+		<div class="row" id="requirements">
+			<h2><u><strong>Requirements</strong></u></h2>
+			<ul>
+				<li>PHP 5.3+</li>
+				<li>MySQLi</li>
+			</ul>
+		</div>
+		<div class="row" id="installation">
+			<h2><u><strong>Installation & Configuration</strong></u></h2>
+			<ul>
+				<li>Import the <strong>mysql.sql</strong> file from the "<strong>MySQL</strong>" folder into your MySQL database using the import function available in MySQL.</li>
+				<li>With a text editor open the following file located inside the "<strong>Script/include/</strong>" folder: config.php, and replace what's between the quotes (e.g: 'YOURDBNAME') with your MySQL settings:</li>
+				<p>$hostname = &quot;YOURDBHOST&quot;;<br />
+					$db_username = &quot;YOURDBUSER&quot;;<br />
+					$db_password = &quot;YOURDBPASS&quot;;<br />
+					$db_name = &quot;YOURDBNAME&quot;;</p>
+				<li>Upload the files from the &quot;Script&quot; folder on the FTP server (usually&nbsp;<strong>public_html</strong>&nbsp;folder when installing it on a domain).</li>
+				<li>Now, to access your Admin Panel go to <u>https://yoursitelink.com/admin</u> and login using the default credentials:</li>
+				<p>Email: <b>admin@admin.com</b></p>
+				<p>Password: <b>admin</b></p>
+				<li>To change admin email & password go to the "Admin Settings" from Dashboard.</li>
+				<li>To change site information like Site Title, Description, Keywords, Post Per Page, Logo, Favicon, Theme and Social Links go to the "Site Settings".</li>
+			</ul>
+		</div>
+		<div class="row" id="credits">
+			<h2><u><strong>Credits</strong></u></h2>
+			<ul>
+				<li><a href="https://getbootstrap.com/">Bootstrap Framework</a></li>
+				<li><a href="https://fontawesome.com/">Font Awesome Icons</a></li>
+				<li><a href="https://jquery.com/">jQuery</a></li>
+				<li><a href="https://github.com/soundasleep/html2text">html2text</a></li>
+				<li><a href="https://ckeditor.com/">CKEditor</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

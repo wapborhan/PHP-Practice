@@ -1,0 +1,12 @@
+{
+    "App\\Events\\CreateMission": ["App\\Listeners\\SendCreateMissionNotification"],
+    "App\\Events\\ApproveMission": ["App\\Listeners\\SendApproveMissionNotification"],
+    "App\\Events\\UpdateMission": ["App\\Listeners\\SendUpdateMissionNotification"],
+    "App\\Events\\AssignMission": ["App\\Listeners\\SendAssignMissionNotification"],
+    "App\\Events\\MissionAction": ["App\\Listeners\\SendMissionActionNotification"],
+    "App\\Events\\AddShipment": ["App\\Listeners\\SendAddShipmenttNotification"],
+    "App\\Events\\ShipmentAction": ["App\\Listeners\\SendShipmentActionNotification"],
+    "App\\Events\\UpdateShipment": ["App\\Listeners\\SendUpdateShipmentNotification"],
+    "App\\Events\\AddClient": ["App\\Listeners\\SendClientNotification"],
+    "App\\Events\\AddCaptain": ["App\\Listeners\\SendCaptainNotification"]
+}

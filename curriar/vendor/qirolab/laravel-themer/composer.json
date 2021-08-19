@@ -1,0 +1,66 @@
+{
+    "name": "qirolab/laravel-themer",
+    "description": "A Laravel theme manager, that will help you organize and maintain your themes inside Laravel projects.",
+    "keywords": [
+        "qirolab",
+        "laravel-theme",
+        "theme",
+        "laravel"
+    ],
+    "homepage": "https://qirolab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish Kumar",
+            "email": "harish@qirolab.com",
+            "homepage": "https://qirolab.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "facade/ignition-contracts": "^1.0",
+        "illuminate/support": "~5.8|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "~3.8.0|^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.3|^9.0",
+        "vimeo/psalm": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qirolab\\Theme\\": "src",
+            "Qirolab\\Theme\\Database\\Factories\\": "database/factories"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qirolab\\Theme\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qirolab\\Theme\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://www.buymeacoffee.com/qirolab"
+        }
+    ]
+}

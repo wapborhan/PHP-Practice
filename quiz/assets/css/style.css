@@ -1,0 +1,66 @@
+div#sidebar {
+    width: 250px;
+    height: 95.3%;
+    position: absolute;
+}
+#sidebar .sidebar-item {
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    display: inline-flex;
+    font-size: 15px;
+    align-items: center;
+    border-bottom: 1px solid #007bff6b;
+    width: 100%;
+    color: black;
+    font-weight: 700
+}
+#sidebar .sidebar-item:hover, #sidebar .sidebar-item.active {
+    text-decoration: unset;
+    background: #007bff4a;
+    color: #353535 !important;
+}
+
+#sidebar .sidebar-item .sidebar-icon {
+	width:11%;
+	padding: auto;
+}
+div#main{
+	margin-top: 10px;
+	margin-left:250px;
+	padding: 20px
+}
+.admin{
+    margin-top: 10px;
+    margin-left:250px;
+    padding: 20px;
+    width:82% !important;
+}
+.pull-right{
+	float: right;
+}
+button.btn-rounded{
+	border-radius: 50% !important;
+}
+#login-body{
+      width: 100%;
+      /*background: url(../../image/book.png) ;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;*/
+}
+#login-body>.card{
+      top:15vh;
+}
+#login-body>.card>.card-header-edge {
+    position: relative;
+    top: -1em;
+    width: 100%;
+    min-height: 3em;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    background: rgb(9,12,168);
+    background: radial-gradient(circle, rgba(9,12,168,1) 0%, rgba(98,167,247,1) 100%);
+}

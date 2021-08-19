@@ -1,0 +1,1574 @@
+$color-transparent:                                                             transparent !default;
+$color-default:                                                                 #105EFB !default;
+$color-default2:                                                                #f88040 !default;
+$color-default3:                                                                #2da2c5 !default;
+$color-white:                                                                   #ffffff !default;
+$color-dark:                                                                    #262626 !default;
+$color-dark-lighter:                                                            #262626 !default;
+$color-dark-lighter2:                                                           #3C3C3C !default;
+$color-dark-lighter3:                                                           #636363 !default;
+$color-gray:                                                                    #f4f4f4 !default;
+$color-gray2:                                                                   #eeeeee !default;
+$color-gray3:                                                                   #dcdcdc !default;
+$color-gray-lighter:                                                            #fcfcfc !default;
+$color-gray-lighter2:                                                           #808080 !default;
+$color-gray-darker:                                                             #808080 !default;
+$color-gray-darker2:                                                            #808080 !default;
+$color-magic:                                                                   #e884fa !default;
+$color-orange:                                                                  #f7a541 !default;
+$color-yellow:                                                                  #f7d77c !default;
+$color-cyan:                                                                    #27c5c3 !default;
+$color-cyan-light:                                                              #20d7de !default;
+$color-green:                                                                   #43a047 !default;
+$color-blue:                                                                    #1b53af !default;
+$color-blue2:                                                                   #425CBF !default;
+$color-blue-light:                                                              #3c66ee !default;
+$color-sky:                                                                     #28a8d3 !default;
+$color-sky2:                                                                    #48c0eb !default;
+$color-sky3:                                                                    #28a8d3 !default;
+$color-sky4:                                                                    #2187b7 !default;
+$color-purple:                                                                  #dd4d57 !default;
+$color-red:                                                                     #e13939 !default;
+$color-red-light:                                                               #fa4b4b !default;
+$color-instagram:                                                               #3f729b !default;
+$color-gplus:                                                                   #d93e2d !default;
+$color-behance:                                                                 #000000 !default;
+$color-vimeo:                                                                   #229ACC !default;
+$color-500px:                                                                   #58a9de !default;
+$color-posterous:                                                               #efd57c !default;
+$color-paypal:                                                                  #003087 !default;
+$color-picasa:                                                                  #b088c1 !default;
+$color-duckduckgo:                                                              #fb0a2a !default;
+$color-aim:                                                                     #ffd900 !default;
+$color-delicious:                                                               #3399ff !default;
+$color-android:                                                                 #a4c639 !default;
+$color-stumbleupon:                                                             #eb4924 !default;
+$color-pinterest:                                                               #cc2127 !default;
+$color-flattr:                                                                  #f67c1a !default;
+$color-eventful:                                                                #136ad5 !default;
+$color-smashmag:                                                                #ff9900 !default;
+$color-wikipedia:                                                               #999999 !default;
+$color-lanyrd:                                                                  #663300 !default;
+$color-fivehundredpx:                                                           #ed174f !default;
+$color-bitcoin:                                                                 #0ea0db !default;
+$color-w3c:                                                                     #7dba00 !default;
+$color-ie:                                                                      #0096d6 !default;
+$color-grooveshark:                                                             #6cbc35 !default;
+$color-99designs:                                                               #ee4f4f !default;
+$color-forrst:                                                                  #5b9a68 !default;
+$color-spotify:                                                                 #2ebd59 !default;
+$color-reddit:                                                                  #5f99cf !default;
+$color-guest:                                                                   #ff4500 !default;
+$color-gowalla:                                                                 #0ba6ab !default;
+$color-appstore:                                                                #2fa5d6 !default;
+$color-apple:                                                                   #686868 !default;
+$color-blogger:                                                                 #f57d00 !default;
+$color-cc:                                                                      #b7295a !default;
+$color-dribbble:                                                                #ea4c89 !default;
+$color-evernote:                                                                #7ac142 !default;
+$color-flickr:                                                                  #0063dc !default;
+$color-linkedin:                                                                #3371b7 !default;
+$color-meetup:                                                                  #e0393e !default;
+$color-vk:                                                                      #45668e !default;
+$color-plancast:                                                                #1ab7ea !default;
+$color-disqus:                                                                  #2e9fff !default;
+$color-rss:                                                                     #f26522 !default;
+$color-skype:                                                                   #00aff0 !default;
+$color-youtube:                                                                 #cd201f !default;
+$color-windows:                                                                 #00bcf2 !default;
+$color-yahoo:                                                                   #400191 !default;
+$color-steam:                                                                   #d7d7d8 !default;
+$color-dropbox:                                                                 #007ee5 !default;
+$color-facebook:                                                                #3b5998 !default;
+$color-twitter:                                                                 #55acee !default;
+$color-worc:                                                                    #fc615d !default;
+$color-github:                                                                  #4183c4 !default;
+$color-googleplay:                                                              #0f9d58 !default;
+$color-lastfm:                                                                  #d51007 !default;
+$color-quora:                                                                   #a82400 !default;
+$color-soundcloud:                                                              #ff3300 !default;
+$color-tumblr:                                                                  #35465c !default;
+$color-wordpress:                                                               #21759b !default;
+$color-buffer:                                                                  #76b852 !default;
+$color-stackoverflow:                                                           #fe7a15 !default;
+$color-foursquare:                                                              #76b852 !default;
+$color-smashmag:                                                                #f94877 !default;
+$color-html5:                                                                   #e34f26 !default;
+$color-call:                                                                    #e74a1e !default;
+$color-digg:                                                                    #000000 !default;
+$color-google:                                                                  #4285f4 !default;
+$color-viadeo:                                                                  #f07355 !default;
+$color-instapaper:                                                              #428bca !default;
+$color-klout:                                                                   #f65314 !default;
+$color-weibo:                                                                   #fc3d39 !default;
+$color-xing:                                                                    #026466 !default;
+$color-chrome:                                                                  #fcd116 !default;
+$color-email:                                                                   #78dcfa !default;
+$color-macstore:                                                                #0054a0 !default;
+$color-myspace:                                                                 #000000 !default;
+$color-podcast:                                                                 #dc380f !default;
+$color-amazon:                                                                  #146eb4 !default;
+$color-cloudapp:                                                                #00aaf2 !default;
+$color-ebay:                                                                    #e53238 !default;
+$color-itunes:                                                                  #4285f4 !default;
+$color-plurk:                                                                   #7db701 !default;
+$color-songkick:                                                                #f80046 !default;
+$color-gmail:                                                                   #db3a1b !default;
+$color-pinboard:                                                                #0000e6 !default;
+$color-openid:                                                                  #616365 !default;
+$color-eventasaurus:                                                            #eb5a46 !default;
+$color-yelp:                                                                    #af0606 !default;
+$color-intensedebate:                                                           #2b96f1 !default;
+$color-eventbrite:                                                              #34495e !default;
+$color-scribd:                                                                  #1a7bba !default;
+$color-posterous:                                                               #efd57c !default;
+$color-stripe:                                                                  #00afe1 !default;
+$color-opentable:                                                               #eb4924 !default;
+$color-cart:                                                                    #e74a1e !default;
+$color-print:                                                                   #e74a1e !default;
+$color-angellist:                                                               #f97200 !default;
+$color-dwolla:                                                                  #828a87 !default;
+$color-appnet:                                                                  #00afe1 !default;
+$color-statusnet:                                                               #595a5c !default;
+$color-acrobat:                                                                 #e74635 !default;
+$color-drupal:                                                                  #0077c0 !default;
+$color-pocket:                                                                  #d3505a !default;
+$color-bitbucket:                                                               #205081 !default;
+$color-lego:                                                                    #61b3de !default;
+$color-login:                                                                   #e74a1e !default;
+$color-hackernews:                                                              #2ebd59 !default;
+$color-lkdto:                                                                   #595a5c !default;
+
+$color-success:                                                                 #53bf6b !default;
+$color-primary:                                                                 #28a8d3 !default;
+$color-info:                                                                    #3b4752 !default;
+$color-warning:                                                                 #f8d053 !default;
+$color-danger:                                                                  #f55753 !default;
+$color-complete:                                                                #48b0f7 !default;
+
+// RGBA White
+$rgba-white-01:                                                                 rgba(255, 255, 255, .01) !default;
+$rgba-white-02:                                                                 rgba(255, 255, 255, .02) !default;
+$rgba-white-03:                                                                 rgba(255, 255, 255, .03) !default;
+$rgba-white-04:                                                                 rgba(255, 255, 255, .04) !default;
+$rgba-white-05:                                                                 rgba(255, 255, 255, .05) !default;
+$rgba-white-06:                                                                 rgba(255, 255, 255, .06) !default;
+$rgba-white-07:                                                                 rgba(255, 255, 255, .07) !default;
+$rgba-white-08:                                                                 rgba(255, 255, 255, .08) !default;
+$rgba-white-09:                                                                 rgba(255, 255, 255, .09) !default;
+
+$rgba-white-1:                                                                  rgba(255, 255, 255, .1) !default;
+$rgba-white-2:                                                                  rgba(255, 255, 255, .2) !default;
+$rgba-white-3:                                                                  rgba(255, 255, 255, .3) !default;
+$rgba-white-4:                                                                  rgba(255, 255, 255, .4) !default;
+$rgba-white-5:                                                                  rgba(255, 255, 255, .5) !default;
+$rgba-white-6:                                                                  rgba(255, 255, 255, .6) !default;
+$rgba-white-7:                                                                  rgba(255, 255, 255, .7) !default;
+$rgba-white-8:                                                                  rgba(255, 255, 255, .8) !default;
+$rgba-white-9:                                                                  rgba(255, 255, 255, .9) !default;
+// RGBA Black
+$rgba-black-01:                                                                 rgba(0, 0, 0, .01) !default;
+$rgba-black-02:                                                                 rgba(0, 0, 0, .02) !default;
+$rgba-black-03:                                                                 rgba(0, 0, 0, .03) !default;
+$rgba-black-04:                                                                 rgba(0, 0, 0, .04) !default;
+$rgba-black-05:                                                                 rgba(0, 0, 0, .05) !default;
+$rgba-black-06:                                                                 rgba(0, 0, 0, .06) !default;
+$rgba-black-07:                                                                 rgba(0, 0, 0, .07) !default;
+$rgba-black-08:                                                                 rgba(0, 0, 0, .08) !default;
+$rgba-black-09:                                                                 rgba(0, 0, 0, .09) !default;
+
+$rgba-black-1:                                                                  rgba(0, 0, 0, .1) !default;
+$rgba-black-2:                                                                  rgba(0, 0, 0, .2) !default;
+$rgba-black-3:                                                                  rgba(0, 0, 0, .3) !default;
+$rgba-black-4:                                                                  rgba(0, 0, 0, .4) !default;
+$rgba-black-5:                                                                  rgba(0, 0, 0, .5) !default;
+$rgba-black-6:                                                                  rgba(0, 0, 0, .6) !default;
+$rgba-black-7:                                                                  rgba(0, 0, 0, .7) !default;
+$rgba-black-8:                                                                  rgba(0, 0, 0, .8) !default;
+$rgba-black-9:                                                                  rgba(0, 0, 0, .9) !default;
+
+// [ ------------------------ Content Spacing Variables ------------------------ ]
+$defult-space:                                                                  100px 0;
+$xlarge-space:                                                                  250px 0;
+$large-space:                                                                   150px 0;
+$small-space:                                                                   70px 0;
+$xsmall-space:                                                                  50px 0;
+$tiny-space:                                                                    40px 0;
+$xtiny-space:                                                                   20px 0;
+$xxtiny-space:                                                                  10px 0;
+
+
+// [ ------------------------ Content Height Variables ------------------------ ]
+$xlarge-height:                                                                 882px;
+$large-height:                                                                  790px;
+$med-height:                                                                    720px;
+$medx-height:                                                                   640px;
+$medxx-height:                                                                  600px;
+$small-height:                                                                  500px;
+$xsmall-height:                                                                 360px;
+$tiny-height:                                                                   220px;
+$xtiny-height:                                                                  170px;
+$xxtiny-height:                                                                 120px;
+
+
+
+// [ ------------------------ Media Queries Breakpoints ------------------------ ]
+$screen-lg-med:                                                                 1260px !default; // Large screen
+$screen-lg-min:                                                                 1200px !default; // Large screen
+$screen-lg-max:                                                                 ($screen-lg-min - 1) !default;
+$screen-md-min:                                                                 992px !default; // Medium screen
+$screen-md-max:                                                                 ($screen-md-min - 1) !default;
+$screen-sm-min:                                                                 768px !default; // Small screen
+$screen-sm-max:                                                                 ($screen-md-min - 1) !default;
+$screen-xs-min:                                                                 480px !default; // Extra small screen
+$screen-xs-max:                                                                 ($screen-sm-min - 1) !default;
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0  - Reset
+ * 2.0  - Basic Structure
+ * 3.0  - General Compontents
+ * 4.0  - Layouts
+ * 5.0  - Headers
+ *   5.1  - Top Bar
+ *   5.2  - Breaking News
+ *   5.3  - Main Menu
+ *   5.4  - Mobile Menu
+ * 6.0  - Magazine Boxes
+ * 7.0  - Post Content
+ * 8.0  - Shortcodes
+ * 9.0  - Sidebars
+ * 10.0 - Page Templates
+ * 11.0 - Sliders
+ * 12.0 - Side Aside
+ * 13.0 - Footer
+ * 14.0 - Dark Skin
+ * 15.0 - Third Party Components
+ * 16.0 - Print
+ * ----------------------------------------------------------------------------
+ */
+/**
+ * normalize.css
+ * -----------------------------------------------------------------------------
+ */
+/* normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: 0 none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before, &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+::selection {
+  background: #105EFB;
+  color: #fff;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+body {
+  font-size: 13px;
+  line-height: 24px;
+  font-style: normal;
+  color: #080e14;
+}
+
+a {
+  color: #080e14;
+  text-decoration: none;
+  transition: 0.15s;
+
+  &:hover {
+    color: #105EFB;
+  }
+}
+
+.clear {
+  clear: both;
+  &:after, &:before {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+  }
+}
+
+.bottom24 {
+  margin-bottom: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 30px 0 20px;
+}
+
+h1 {
+  font-size: 41px;
+
+  @media (max-width: 1018px) {
+    font-size: 28px;
+  }
+}
+
+h2 {
+  font-size: 27px;
+
+  @media (max-width: 1018px) {
+    font-size: 18px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+address {
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted #191919;
+  cursor: help;
+}
+
+strong {
+  font-weight: 700;
+}
+
+dfn, em, i {
+  font-style: italic;
+}
+
+mark, ins {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 24px;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+code, kbd, tt, var, samp, pre {
+  font-family: monospace, serif;
+  font-size: 15px;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  line-height: 1.6;
+}
+
+blockquote, q {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  quotes: none;
+}
+
+blockquote {
+  &:before, &:after {
+    content: none;
+  }
+}
+
+q {
+  &:before, &:after {
+    content: none;
+  }
+}
+
+blockquote {
+  cite, small {
+    color: #111;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  em, i, cite {
+    font-style: normal;
+  }
+  strong, b {
+    font-weight: 400;
+  }
+}
+
+small {
+  font-size: 80%;
+}
+
+big {
+  font-size: 125%;
+}
+
+sup, sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: .5ex;
+}
+
+dl {
+  margin-bottom: 24px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+ul {
+}
+
+ol {
+}
+
+li > {
+  ul, ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+  }
+}
+
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border-color: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 0 0 24px;
+  padding: 11px 12px 0;
+}
+
+legend {
+  white-space: normal;
+}
+
+button, input, select, textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: baseline;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+button, input {
+  line-height: normal;
+}
+
+textarea {}
+
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input {
+  &[type="reset"], &[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+}
+
+button[disabled] {
+  cursor: default;
+}
+
+input {
+  &[disabled] {
+    cursor: default;
+  }
+  &[type="checkbox"], &[type="radio"] {
+    padding: 0;
+  }
+  &[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-appearance: none;
+  }
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+del {
+  color: #191919;
+}
+
+hr {
+  background-color: #f0f0f0;
+  border: 0;
+  height: 1px;
+  margin-bottom: 23px;
+}
+
+input, textarea, select {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-color: #e0e0e0;
+  -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.03);
+  color: #191919;
+  padding: 8px 10px 7px;
+}
+
+textarea {
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border-color: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  outline: 0;
+}
+
+button, .btn-link {
+  background-color: #105EFB;
+  border: 0;
+  color: #fff;
+  font-size: 13px;
+  display: inline-block;
+  padding: 6px 20px;
+  vertical-align: middle;
+  letter-spacing: normal;
+  text-align: center;
+  transition: all 0.2s linear 0s;
+}
+
+input {
+  &[type="button"], &[type="reset"], &[type="submit"] {
+    background-color: #105EFB;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    padding: 6px 20px;
+    min-height: 38px;
+    vertical-align: middle;
+    letter-spacing: normal;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+  }
+}
+
+button {
+  &:hover, &:focus {
+    background-color: #191919;
+    color: #fff;
+  }
+}
+
+.btn-link:hover {
+  background-color: #191919;
+  color: #fff;
+}
+
+input {
+  &[type="button"] {
+    &:hover, &:focus {
+      background-color: #191919;
+      color: #fff;
+    }
+  }
+  &[type="reset"] {
+    &:hover, &:focus {
+      background-color: #191919;
+      color: #fff;
+    }
+  }
+  &[type="submit"] {
+    &:hover, &:focus {
+      background-color: #191919;
+      color: #fff;
+    }
+  }
+}
+
+button:active, .btn-link:active {
+  background-color: #105EFB;
+}
+
+input {
+  &[type="button"]:active, &[type="reset"]:active, &[type="submit"]:active {
+    background-color: #105EFB;
+  }
+}
+
+embed, iframe, object, video {
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+p > {
+  embed, iframe, object {
+    margin-bottom: 0;
+  }
+}
+
+span > {
+  embed, iframe, object {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ Alignment
+ * ----------------------------------------------------------------------------- */
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote.alignleft, img.alignleft {
+  margin: 7px 26px 7px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 7px 26px 7px 0;
+}
+
+blockquote.alignright, img.alignright {
+  margin: 7px 0 7px 24px;
+}
+
+.wp-caption.alignright {
+  margin: 7px 0 7px 26px;
+}
+
+blockquote.aligncenter, img.aligncenter {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.wp-caption {
+  max-width: 100%;
+  &.aligncenter {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  margin-bottom: 24px;
+  img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.wp-caption-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 9px 0;
+  padding-right: 10px;
+}
+
+.wp-smiley {
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 479px) {
+  .alignleft, .alignright, .aligncenter {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wp-caption {
+    &.alignleft, &.alignright, &.aligncenter {
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  blockquote {
+    &.alignleft, &.alignright, &.aligncenter {
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+/**
+ Fonts
+ * ----------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Museo500';
+  src: url('../fonts/museoslab500/Museo_Slab_500_2-webfont.eot');
+  src: url('../fonts/museoslab500/Museo_Slab_500_2-webfont.eot?#iefix') format("embedded-opentype"),
+  url('../fonts/museoslab500/Museo_Slab_500_2-webfont.woff') format("woff"),
+  url('../fonts/museoslab500/Museo_Slab_500_2-webfont.woff') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Savoy';
+  src: url('../fonts/savoy-roman/Savoy-Roman-webfont.eot');
+  src: url('../fonts/savoy-roman/Savoy-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/savoy-roman/Savoy-Roman-webfont.woff') format('woff'),
+  url('../fonts/savoy-roman/Savoy-Roman-webfont.woff2') format('woff2'),
+  url('../fonts/savoy-roman/Savoy-Roman-webfont.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.site-tagline {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.nav-menu {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  .entry-title {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
+
+.page-title h2, .post-sharing-box .title, .box-title h2, ul.tabs_nav li a, .box-title h3, .blog-v1 article .entry-title, .widget .widget-title h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+body {
+  input, textarea, select, button {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only-focusable {
+  &:active, &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+/*
+== malihu jquery custom scrollbar plugin ==
+Plugin URI: http://manos.malihu.gr/jquery-custom-content-scroller
+*/
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+1. BASIC STYLE
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.mCustomScrollbar {
+  -ms-touch-action: pinch-zoom;
+  touch-action: pinch-zoom;
+  /* direct pointer events to js */
+  &.mCS_no_scrollbar, &.mCS_touch_action {
+    -ms-touch-action: auto;
+    touch-action: auto;
+  }
+}
+
+.mCustomScrollBox {
+  /* contains plugin's markup */
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  max-width: 100%;
+  outline: none;
+  direction: ltr;
+}
+
+.mCSB_container {
+  /* contains the original content */
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+2. VERTICAL SCROLLBAR
+y-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* RTL direction/left-side scrollbar */
+
+.mCSB_scrollTools {
+  position: absolute;
+  width: 16px;
+  height: auto;
+  right: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.mCSB_outside + .mCSB_scrollTools {
+  left: -26px;
+}
+
+/* scrollbar position: outside */
+
+.mCS-dir-rtl > {
+  .mCSB_inside > .mCSB_scrollTools {
+    left: auto;
+    right: 0;
+  }
+  .mCSB_outside + .mCSB_scrollTools {
+    left: auto;
+    right: 0;
+    right: -26px;
+  }
+}
+
+/* RTL direction/left-side scrollbar (scrollbar position: outside) */
+
+.mCSB_scrollTools {
+  .mCSB_draggerContainer {
+    /* contains the draggable element and dragger rail markup */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+  }
+  a + .mCSB_draggerContainer {
+    margin: 20px 0;
+  }
+  .mCSB_draggerRail {
+    width: 2px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .mCSB_dragger {
+    /* the draggable element */
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    /* minimum dragger height */
+    z-index: 1;
+    .mCSB_dragger_bar {
+      /* the dragger element */
+      position: relative;
+      width: 4px;
+      height: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand {
+  .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    width: 12px;
+  }
+  .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 8px;
+  }
+}
+
+.mCSB_scrollTools {
+  .mCSB_buttonUp {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .mCSB_buttonDown {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+    bottom: 0;
+  }
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+3. HORIZONTAL SCROLLBAR
+x-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.mCSB_horizontal {
+  &.mCSB_inside > .mCSB_container {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  &.mCSB_outside > .mCSB_container {
+    min-height: 100%;
+  }
+  > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0;
+  }
+}
+
+/* non-visible scrollbar */
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  width: auto;
+  height: 16px;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.mCustomScrollBox + .mCSB_scrollTools {
+  &.mCSB_scrollTools_horizontal, + .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: -26px;
+  }
+}
+
+/* scrollbar position: outside */
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  a + .mCSB_draggerContainer {
+    margin: 0 20px;
+  }
+  .mCSB_draggerRail {
+    width: 100%;
+    height: 2px;
+    margin: 7px 0;
+  }
+  .mCSB_dragger {
+    width: 30px;
+    /* minimum dragger width */
+    height: 100%;
+    left: 0;
+    .mCSB_dragger_bar {
+      width: 100%;
+      height: 4px;
+      margin: 6px auto;
+    }
+  }
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand {
+  .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    height: 12px;
+    /* auto-expanded scrollbar */
+    margin: 2px auto;
+  }
+  .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 8px;
+    /* auto-expanded scrollbar */
+    margin: 4px 0;
+  }
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  .mCSB_buttonLeft, .mCSB_buttonRight {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .mCSB_buttonLeft {
+    left: 0;
+  }
+  .mCSB_buttonRight {
+    right: 0;
+  }
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+4. VERTICAL AND HORIZONTAL SCROLLBARS
+yx-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.mCSB_container_wrapper {
+  position: absolute;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  > .mCSB_container {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+}
+
+.mCSB_vertical_horizontal > .mCSB_scrollTools {
+  &.mCSB_scrollTools_vertical {
+    bottom: 20px;
+  }
+  &.mCSB_scrollTools_horizontal {
+    right: 20px;
+  }
+}
+
+/* non-visible horizontal scrollbar */
+
+.mCSB_container_wrapper {
+  &.mCS_no_scrollbar_x.mCS_x_hidden + .mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 0;
+  }
+  &.mCS_no_scrollbar_y.mCS_y_hidden + .mCSB_scrollTools ~ .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 0;
+  }
+}
+
+/* non-visible vertical scrollbar/RTL direction/left-side scrollbar */
+
+.mCS-dir-rtl > {
+  .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > {
+    .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+      right: 0;
+      left: 20px;
+    }
+    .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden + .mCSB_scrollTools ~ .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+      left: 0;
+    }
+  }
+  .mCSB_inside > .mCSB_container_wrapper {
+    /* RTL direction/left-side scrollbar */
+    margin-right: 0;
+    margin-left: 30px;
+  }
+}
+
+/* RTL direction/left-side scrollbar */
+
+/* non-visible scrollbar/RTL direction/left-side scrollbar */
+
+.mCSB_container_wrapper {
+  &.mCS_no_scrollbar_y.mCS_y_hidden > .mCSB_container {
+    padding-right: 0;
+  }
+  &.mCS_no_scrollbar_x.mCS_x_hidden > .mCSB_container {
+    padding-bottom: 0;
+  }
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper {
+  &.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+    /* non-visible scrollbar */
+    margin-left: 0;
+  }
+  &.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0;
+  }
+}
+
+/* non-visible horizontal scrollbar */
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+5. TRANSITIONS
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.mCSB_scrollTools {
+  -webkit-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+  .mCSB_dragger .mCSB_dragger_bar, .mCSB_buttonUp, .mCSB_buttonDown, .mCSB_buttonLeft, .mCSB_buttonRight {
+    -webkit-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+  }
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand {
+  .mCSB_dragger_bar, .mCSB_draggerRail {
+    -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  }
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand {
+  .mCSB_dragger_bar, .mCSB_draggerRail {
+    -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  }
+}
+
+/*
+----------------------------------------
+6.1 THEMES
+----------------------------------------
+*/
+
+/* default theme ("light") */
+
+.mCSB_scrollTools {
+  opacity: 0.75;
+  filter: "alpha(opacity=75)";
+  -ms-filter: "alpha(opacity=75)";
+}
+
+.mCS-autoHide > .mCustomScrollBox {
+  > .mCSB_scrollTools, ~ .mCSB_scrollTools {
+    opacity: 0;
+    filter: "alpha(opacity=0)";
+    -ms-filter: "alpha(opacity=0)";
+  }
+}
+
+.mCustomScrollbar > .mCustomScrollBox {
+  > .mCSB_scrollTools.mCSB_scrollTools_onDrag, ~ .mCSB_scrollTools.mCSB_scrollTools_onDrag {
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+  }
+}
+
+.mCustomScrollBox:hover {
+  > .mCSB_scrollTools, ~ .mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+  }
+}
+
+.mCS-autoHide:hover > .mCustomScrollBox {
+  > .mCSB_scrollTools, ~ .mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+  }
+}
+
+.mCSB_scrollTools {
+  .mCSB_draggerRail {
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.3);
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)";
+  }
+  .mCSB_dragger {
+    .mCSB_dragger_bar {
+      background-color: #fff;
+      background: rgba(0, 0, 0, 0.3);
+      filter: "alpha(opacity=75)";
+      -ms-filter: "alpha(opacity=75)";
+    }
+    &:hover .mCSB_dragger_bar {
+      background-color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+      filter: "alpha(opacity=85)";
+      -ms-filter: "alpha(opacity=85)";
+    }
+    &:active .mCSB_dragger_bar, &.mCSB_dragger_onDrag .mCSB_dragger_bar {
+      background-color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      filter: "alpha(opacity=90)";
+      -ms-filter: "alpha(opacity=90)";
+    }
+  }
+}
+
+* {
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* Loader */
+.bd-loading {
+  display: inline-block;
+  font-size: 5px;
+  position: relative;
+  text-indent: -9999em;
+  border: 0.4em solid rgba(0, 0, 0, 0.2);
+  border-left-color: $color-default;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: bdaiaLoader 0.8s infinite linear;
+  -o-animation: bdaiaLoader 0.8s infinite linear;
+  animation: bdaiaLoader 0.8s infinite linear;
+}
+
+.bd-loading,
+.bd-loading:after {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+.bd-loading.bd-loading-small,
+.bd-loading.bd-loading-small:after{
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 767px) {
+  .bd-loading,
+  .bd-loading:after {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@-webkit-keyframes bdaiaLoader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bdaiaLoader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.bypostauthor {
+  position: relative;
+}
+
+
+@-webkit-keyframes twitterAttention {
+  0% {
+    background: rgba(26, 139, 240, 0.02);
+  }
+  100% {
+    background: rgba(26, 139, 240, 0.08);
+  }
+}
+
+@keyframes twitterAttention {
+  0% {
+    background: rgba(26, 139, 240, 0.02);
+  }
+  100% {
+    background: rgba(26, 139, 240, 0.08);
+  }
+}
+
+@-webkit-keyframes facebookAttention {
+  0% {
+    background: rgba(26, 139, 240, 0.02);
+  }
+  100% {
+    background: rgba(26, 139, 240, 0.08);
+  }
+}
+
+@keyframes facebookAttention {
+  0% {
+    background: rgba(59, 89, 152, 0.02);
+  }
+  100% {
+    background: rgba(59, 89, 152, 0.08);
+  }
+}
+
+@-webkit-keyframes googleAttention {
+  0% {
+    background: rgba(223, 74, 50, 0.02);
+  }
+  100% {
+    background: rgba(223, 74, 50, 0.08);
+  }
+}
+
+@keyframes googlekAttention {
+  0% {
+    background: rgba(223, 74, 50, 0.02);
+  }
+  100% {
+    background: rgba(223, 74, 50, 0.08);
+  }
+}
+
+@-webkit-keyframes redditAttention {
+  0% {
+    background: rgba(255, 87, 0, 0.02);
+  }
+  100% {
+    background: rgba(255, 87, 0, 0.08);
+  }
+}
+
+@keyframes redditAttention {
+  0% {
+    background: rgba(255, 87, 0, 0.02);
+  }
+  100% {
+    background: rgba(255, 87, 0, 0.08);
+  }
+}
+
+@-webkit-keyframes pinterestAttention {
+  0% {
+    background: rgba(203, 32, 39, 0.02);
+  }
+  100% {
+    background: rgba(203, 32, 39, 0.08);
+  }
+}
+
+@keyframes pinterestAttention {
+  0% {
+    background: rgba(203, 32, 39, 0.02);
+  }
+  100% {
+    background: rgba(203, 32, 39, 0.08);
+  }
+}
+
+@-webkit-keyframes linkedinAttention {
+  0% {
+    background: rgba(0, 123, 182, 0.02);
+  }
+  100% {
+    background: rgba(0, 123, 182, 0.08);
+  }
+}
+
+@keyframes linkedinAttention {
+  0% {
+    background: rgba(0, 123, 182, 0.02);
+  }
+  100% {
+    background: rgba(0, 123, 182, 0.08);
+  }
+}
+
+@-webkit-keyframes tumblrAttention {
+  0% {
+    background: rgba(54, 70, 93, 0.02);
+  }
+  100% {
+    background: rgba(54, 70, 93, 0.08);
+  }
+}
+
+@keyframes tumblrAttention {
+  0% {
+    background: rgba(54, 70, 93, 0.02);
+  }
+  100% {
+    background: rgba(54, 70, 93, 0.08);
+  }
+}
+
+@-webkit-keyframes whatsappAttention {
+  0% {
+    background: rgba(37, 211, 102, 0.02);
+  }
+  100% {
+    background: rgba(37, 211, 102, 0.08);
+  }
+}
+
+@keyframes whatsappAttention {
+  0% {
+    background: rgba(37, 211, 102, 0.02);
+  }
+  100% {
+    background: rgba(37, 211, 102, 0.08);
+  }
+}
+
+@-webkit-keyframes telegramAttention {
+  0% {
+    background: rgba(0, 136, 204, 0.02);
+  }
+  100% {
+    background: rgba(0, 136, 204, 0.08);
+  }
+}
+
+@keyframes telegramAttention {
+  0% {
+    background: rgba(0, 136, 204, 0.02);
+  }
+  100% {
+    background: rgba(0, 136, 204, 0.08);
+  }
+}
+
+textarea, input:not([type="checkbox"]):not([type="radio"]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

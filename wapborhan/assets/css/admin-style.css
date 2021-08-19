@@ -1,0 +1,61 @@
+body{
+	background: white;
+}
+.widget{
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0 0 30px;
+	border-radius: 6px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.03);
+}
+.widget .widget-title {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 32px;
+	margin: 0;
+}
+.widget .widget-title > h3 {
+    display: block;
+    height: 32px;
+    background-color: #27aae1;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 0 20px;
+    margin: 0;
+}
+.widget-content {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 0;
+	border: 1px solid #ebebeb;
+	border-top: 0;
+	text-align: center;
+}
+.widget-content a{
+	margin: 5px;
+}
+.widget-content a:hover{
+	background: #1ab394;
+}
+.fieldinfo{
+	text-align: left;
+	font-weight: bold;
+}
+input[type=submit]{
+	font-weight: bold;
+}
+tbody th{
+	font-weight: normal;
+}
+.dash-table td, .dash-table th {
+	text-align: left;
+}
+[id*="copy"]{display:none!important;}

@@ -1,0 +1,89 @@
+span.article-star-rate {
+
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0 none;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  display: inline-block;
+  float: none;
+  position: relative;
+  font-size: 14px;
+  line-height: 14px;
+  transition: none;
+  letter-spacing: 0;
+  text-align: center;
+  text-indent: 0;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+
+  > span {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #FEBF00;
+    display: block;
+    transition: none;
+    text-align: left;
+    word-wrap: normal;
+
+    &::after {
+      content: "\f005" " \f005" " \f005" " \f005" " \f005";
+      font-family: "FontAwesome";
+      display: block;
+    }
+  }
+
+  &::after {
+    color: rgba(154,154,154,0.65);
+    content: "\f006" " \f006" " \f006" " \f006" " \f006";
+    font-family: "FontAwesome";
+    display: block;
+  }
+}
+
+.rating-percentages {
+  position: relative;
+  transition: all 0.4s ease-out;
+  left: 0;
+
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0 none;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  .rating-percentages-inner {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 0.4s ease-out;
+
+    span {
+      background-color: #105EFB;
+      background: -webkit-linear-gradient(to left, #105EFB, transparent);
+      background: linear-gradient(to left, #105EFB, transparent);
+      color: #FFF;
+      text-align: right;
+      padding: 4px 7px 4px 7px;
+      font-size: 11px;
+      display: block;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Open Sans", sans-serif;
+      line-height: 11px;
+    }
+
+    &:before,
+    &:after{content:"\0020";display: block;height:0;overflow:hidden}
+    &:after{clear:both}
+  }
+}

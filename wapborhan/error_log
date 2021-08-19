@@ -1,0 +1,3 @@
+[30-Jun-2021 22:27:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'wapborhan_Borhan'@'localhost' (using password: YES) in /home/wapborhan/public_html/serv/astra/include/config.php on line 6
+[30-Jun-2021 22:28:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'wapborhan_Borhan'@'localhost' (using password: YES) in /home/wapborhan/public_html/serv/astra/include/config.php on line 6
+[30-Jun-2021 22:28:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'wapborhan_Borhan'@'localhost' (using password: YES) in /home/wapborhan/public_html/serv/astra/include/config.php on line 6

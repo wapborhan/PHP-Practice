@@ -1,0 +1,8 @@
+RewriteEngine On
+#RewriteRule ^article/(.*)$ post.php?id=$1 [QSA,L]
+#RewriteRule ^category/(.*)/([0-9]+)$ category.php?name=$1&page=$2 [QSA,L]
+#RewriteRule ^category/(.*)$ category.php?name=$1 [QSA,L]
+RewriteRule ^article/([0-9]+)/?$ post.php?id=$1 [L]
+RewriteRule ^category/([0-9a-zA-Z-]+)/?$ category.php?name=$1 [L]
+RewriteRule ^category/([0-9a-zA-Z-]+)/([0-9]+)/? category.php?name=$1&page=$2 [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]

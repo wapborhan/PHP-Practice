@@ -1,0 +1,9 @@
+/*your custom css goes here*/
+#aizUploaderModal .modal-dialog {
+    max-width: 90% !important;
+}
+#aizUploaderModal .modal-dialog .modal-content .modal-body{
+    padding: 20px 0px;
+    max-width: 100%;
+    margin: 0;
+}

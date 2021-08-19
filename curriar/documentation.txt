@@ -1,0 +1,95 @@
+Container
+    -Create Container:
+        1- Method parameters:
+            1- title (string) nullable 
+            2- name (string) nullable 
+            3- active (boolean '0 or 1') default=1 
+        2- Location app('App\Http\Controllers\AdminContainerController')->store($request)
+        3- Return :
+            1- container Object
+        4- How to use
+            $request = ["name"=>"name","title"=>"title","active"=>1];
+            $result = app('App\Http\Controllers\AdminContainerController')->store($request);
+
+    -Update Container (or disabled "active=0"):
+        1- Method parameters:
+            1- ID (Int) Required
+            2- title (string) nullable 
+            3- name (string) nullable 
+            4- active (boolean '0 or 1') default=1 
+        2- Location app('App\Http\Controllers\AdminContainerController')->update($request)
+        3- Return :
+            1- container Object
+            2- 'Invalid ID'
+        4- How to use
+            $request = ["id"=>8,"name"=>"New name","title"=>"New title","active"=>0];
+            $result = app('App\Http\Controllers\AdminContainerController')->update($request);
+
+    -Delete Container:
+        1- Method parameters:
+            1- ID (Int) Required
+        2- Location $result = app('App\Http\Controllers\AdminContainerController')->destroy($id);
+        3- Return :
+            1- 'Container has been deleted successfully' 
+            2- "You can't delete this container , you have to delete or move all widgets first"
+            3- 'Invalid ID'
+        4- How to use
+            $result = app('App\Http\Controllers\AdminContainerController')->destroy($id);
+
+    -Get Container by name:
+        1- Method parameters:
+            1- name (string) Required
+        2- Location $result = app('App\Http\Controllers\AdminContainerController')->get_by_name($name);
+        3- Return :
+            1- array of containers
+        4- How to use
+            $result = app('App\Http\Controllers\AdminContainerController')->get_by_name($name);
+
+
+Widget
+    -Create Widget:
+        1- Method parameters:
+            1- title (string) nullable 
+            2- value (longText) nullable 
+            3- link (string) nullable 
+            4- class (string) nullable 
+        2- Location app('App\Http\Controllers\AdminWidgetController')->store($request)
+        3- Return :
+            1- Widget Object
+        4- How to use
+            $request = ["title"=>"title","value"=>"value","link"=>"link","class"=>"class"];
+            $result = app('App\Http\Controllers\AdminWidgetController')->store($request);
+
+    -Update Widget:
+        1- Method parameters:
+            1- ID (Int) Required
+            2- title (string) nullable 
+            3- value (longText) nullable 
+            4- link (string) nullable 
+            5- class (string) nullable 
+        2- Location app('App\Http\Controllers\AdminWidgetController')->update($request)
+        3- Return :
+            1- Widget Object
+            2- 'Invalid ID'
+        4- How to use
+            $request = ["id"=>21,"title"=>"New title","value"=>"New value","link"=>"New link","class"=>"New class"];
+            $result = app('App\Http\Controllers\AdminWidgetController')->update($request);
+
+    -Delete Widget:
+        1- Method parameters:
+            1- ID (Int) Required
+        2- Location $result = app('App\Http\Controllers\AdminWidgetController')->destroy($id);
+        3- Return :
+            1- 'Widget has been deleted successfully' 
+            2- 'Invalid ID'
+        4- How to use
+            $result = app('App\Http\Controllers\AdminWidgetController')->destroy($id);
+
+
+
+
+
+
+
+
+

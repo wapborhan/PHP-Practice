@@ -1,0 +1,2 @@
+[30-Jun-2021 22:57:12 UTC] PHP Warning:  session_unset() expects exactly 0 parameters, 1 given in /home/wapborhan/public_html/serv/astra/user/logout.php on line 5
+[30-Jun-2021 22:57:12 UTC] PHP Warning:  session_unset() expects exactly 0 parameters, 1 given in /home/wapborhan/public_html/serv/astra/user/logout.php on line 6

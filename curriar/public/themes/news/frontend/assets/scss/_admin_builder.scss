@@ -1,0 +1,107 @@
+#bdaia_page_builder {
+  /*margin: 0.5em 0 2px;*/
+  background: #0073aa !important;
+  color: #FFF !important;
+  margin-top: 5px;
+  height: 44px !important;
+  line-height: 44px !important;
+  box-shadow: none !important;
+  border: 0 none !important;
+  text-shadow: none !important;
+
+  &.builder_active,
+  &.bdaia_builder_go_active {
+    background: #0d3d63 !important;
+    color: #FFF !important;
+  }
+}
+
+.bdaia-builder-nav {
+  padding: 20px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &.bdaia-builder-nav-items {
+      clear: both;
+      overflow: hidden;
+
+      .bdaia-builder-nav-item {
+        list-style: none;
+        float: left;
+        position: relative;
+        line-height: 0;
+        max-width: 180px;
+        overflow: hidden;
+        margin: 2px;
+        width: calc((100% - 36px) / 9);
+
+        @media (max-width: 1199px) { width: calc((100% - 24px) / 6); }
+        @media (max-width: 767px) { width: calc((100% - 16px) / 4); }
+        @media (max-width: 479px) { width: calc((100% - 12px) / 3); }
+
+        &:nth-child(n) {
+          clear: none;
+        }
+
+        > a {
+          outline: none;
+          display: block;
+          line-height: 0;
+          background-color: #f5f5f5;
+          padding: 5px;
+          text-decoration: none !important;
+          color: #707070;
+          border-radius: 2px;
+          overflow: hidden;
+          transition: 0.15s;
+
+          > span.block-img {
+            clear: both;
+            img {
+              border-radius: 2px;
+              display: block;
+              width: 100%;
+              background: #FFF;
+              box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+              image-rendering: auto;
+              image-rendering: crisp-edges;
+              image-rendering: pixelated;
+            }
+          }
+          > span.block-title {
+            clear: both;
+            display: block;
+            text-align: center;
+            padding: 6px 0 2px;
+            font-size: 9px;
+            line-height: 11px;
+          }
+
+          &:hover,
+          &:focus {
+            outline: none;
+            background-color: #4db2ec;
+            color: #FFF !important;
+          }
+        }
+
+        &:hover,
+        &:focus {
+          a {
+            color: #FFF !important;
+          }
+        }
+
+        &.bdaia-builder-nav-block601 {}
+      }
+    }
+  }
+}
+
+.bdaia_box_item_block666 .wp-editor-tools,
+.bdaia_box_item_block667 .wp-editor-tools {
+  margin-bottom: -4px !important;
+}

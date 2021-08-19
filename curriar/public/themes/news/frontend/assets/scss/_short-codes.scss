@@ -1,0 +1,90 @@
+article blockquote.bdaia-blockquotes,
+blockquote.bdaia-blockquotes {
+  font-family: 'Roboto',sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+article blockquote.bdaia-blockquotes,
+blockquote.bdaia-blockquotes,
+blockquote.bdaia-blockquotes.bdaia-bpull:before,
+blockquote.bdaia-blockquotes.bdaia-bpull:after {
+  color: #105EFB;
+}
+
+@media (max-width: 676px) {
+
+  blockquote.bdaia-blockquotes.bdaia-bqpo-left {
+    float: initial !important;
+    margin: 0 auto 26px auto;
+    width: initial !important;
+    max-width: 100% !important;
+  }
+
+  .wp-caption.alignleft,
+  .wp-caption.alignright,
+  .wp-caption.aligncenter {
+    float: initial !important;
+    width: initial !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+  .wp-caption img[class*="wp-image-"] {
+    display: inline-block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+
+.bd-cat-link {
+  border-radius:0;
+  /*background: linear-gradient(to right,#ff483a 0,#3b29de 100%);*/
+}
+
+.bdaia-header-default .topbar.topbar-gradient {
+  background: linear-gradient(to right,#FE4F2D 0,#CF109F 100%);
+  color: #FFF;
+}
+
+.bdaia-header-default .topbar:not(.topbar-light) a {
+  color: #FFF;
+}
+.breaking-title {
+}
+.slider-area.cover-full .slider-area {
+  margin-top: 8px;
+}
+.slider-area.cover-full .cover-wrapper {
+  padding: 0 8px;
+}
+
+@media (min-width: 991px)
+{
+  .slider-area.cover-full.cover-grid.cover-grid607 .cover-item:nth-child(1) {
+    padding: 0 8px;
+  }
+}
+
+@media (min-width: 991px)
+{
+  .slider-area.cover-full.cover-grid.cover-grid607 .cover-item:nth-child(2),
+  .slider-area.cover-full.cover-grid.cover-grid607 .cover-item:nth-child(4) {
+    padding: 0 0 8px 0;
+  }
+}
+
+.bdaia-hibryd-menu .nav-logo img {
+  height: 44px;
+}
+
+.nav-logo {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}

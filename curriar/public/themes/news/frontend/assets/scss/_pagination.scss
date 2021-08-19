@@ -1,0 +1,117 @@
+.page-nav
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+  &:before,
+  &:after{content:"\0020";display: block;height:0;overflow:hidden}
+  &:after{clear:both}
+
+  ul {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    @media (max-width: 500px) {
+      text-align: inherit;
+    }
+
+    li {
+      display: inline-block;
+      border-radius: 2px;
+      background-color: #FFF;
+      border:1px solid rgba( 0,0,0, 0.1 );
+      color: #999;
+      font-family: 'Open Sans',sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1;
+      text-transform: uppercase;
+      transition: border-color .3s ease-in-out,background-color .3s ease-in-out,color .3s ease-in-out;
+      margin: 3px;
+
+      &.current {
+        border-color: $color-default;
+        background-color: $color-default;
+        color: #fff;
+      }
+
+      a,
+      .pages-nav-item {
+        display: inline-block;
+        padding: 12px 15px;
+      }
+    }
+  }
+
+  .page-standard {
+    > span {
+      display: inline-block;
+      border-radius: 2px;
+      background-color: #FFF;
+      border:1px solid rgba( 0,0,0, 0.1 );
+      color: #999;
+      font-family: 'Open Sans',sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+      text-transform: uppercase;
+      transition: border-color .3s ease-in-out,background-color .3s ease-in-out,color .3s ease-in-out;
+
+      a {
+        display: inline-block;
+        padding: 12px 15px;
+      }
+
+      span {
+        display: inline-block;
+        font: normal normal normal 16px/1 FontAwesome;
+        font-weight: normal;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      &.first-page {
+        float: left;
+
+        span {
+          float: left;
+          margin-right: 8px;
+
+          &::before {
+            content: "\f0d9";
+          }
+        }
+      }
+
+      &.last-page {
+        float: right;
+
+        span {
+          float: right;
+          margin-left: 8px;
+
+          &::before {
+            content: "\f0da";
+          }
+        }
+      }
+
+      &:hover {
+        border-color: $color-default;
+        background-color: $color-default;
+        color: #fff;
+
+        a {
+          color: #FFF;
+        }
+      }
+    }
+  }
+}

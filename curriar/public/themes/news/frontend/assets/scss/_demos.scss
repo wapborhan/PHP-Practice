@@ -1,0 +1,150 @@
+/*! BNews Demo ----- */
+.header-container .bdaia-e3-container {
+
+  .btcwdgt {
+    max-width: 728px !important;
+  }
+  .btcwdgt-noshadow {
+    margin: 0 auto !important;
+  }
+  .btcwdgt-chart .btcwdgt-body,
+  .btcwdgt-chart .btcwdgt-footer {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 2880px) and (min-width: 1024px) {
+
+}
+
+.bd-sidebar {
+
+  .btcwdgt-noshadow {
+    margin: 0 auto !important;
+  }
+
+  .ccpw-widget {
+
+    * {
+      margin : auto;
+    }
+
+    tr {
+      background: transparent !important;
+    }
+
+    background: rgba(0,0,0,0.04) !important;
+    padding: 10px 5px;
+
+    .ccpw_table {
+
+    }
+
+    span.name {
+      font-size: 12px;
+    }
+
+    td {
+      border: 0 none !important;
+      padding: 8px 5px !important;
+      font-size: 12px;
+
+      img {
+        max-width: 16px !important;
+      }
+    }
+  }
+}
+
+.bdaia-bnews {
+
+  .bdaia-header-default .topbar {
+    height: 50px;
+
+    .bdaia-social-io {
+      padding: 8px 0;
+    }
+  }
+  div.bdaia-footer::before {
+    opacity: 1;
+  }
+}
+
+
+/* Demo Times */
+body.demo-times {
+  .header-container {
+    border-bottom: 0;
+  }
+  .bdaia-header-default {
+    .topbar,
+    .topbar.topbar-light {
+
+      background: #FFF;
+      color: #333;
+
+      .bd-container {
+        border-bottom: 1px #d5d5d5 solid;
+      }
+
+      .bdaia-social-io a,
+      .bdaia-social-io a:not(:hover) {
+        color: #333;
+      }
+
+      .top-nav>li a:hover,
+      .top-nav>li.current-menu-item a {
+        background: #FFF;
+        color: inherit;
+      }
+    }
+  }
+
+  nav#navigation {
+
+    .bd-bg { display: none }
+
+    &.nav-boxed {
+
+      .bd-container {
+        line-height: 38px;
+      }
+
+      .navigation-inner {
+        background: #FFF;
+        border-top: 3px solid #000000;
+        border-bottom: 1px solid #d5d5d5;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .bd-content-wrap {
+      padding-top: 0;
+    }
+  }
+}
+
+
+
+/* Sports  */
+
+
+body.demo-sports .nav-logo {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+body.demo-sports .nav-logo img{
+  height: auto;
+}
+
+body.demo-sports ul.bd-components .fa,
+body.demo-sports ul.bd-components .bdaia-io:not(.bdaia-io-search) {
+
+}
+
+body.demo-sports .bd-subnav-wrapper .sub-nav {
+  line-height: inherit;
+  margin-left: 193px;
+}
