@@ -1,8 +1,9 @@
 </section>
 
-  <footer class="footeroption">
-  <h2>www.trainingWithLiveProject.com</h2>
-  </footer>
+<footer class="footeroption">
+  <h2>www.wapborhan.com</h2>
+</footer>
 
 </body>
+
 </html>
