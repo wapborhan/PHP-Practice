@@ -1,1 +1,0 @@
-For the new update please use "composer clearcache; then composer dump -o "
