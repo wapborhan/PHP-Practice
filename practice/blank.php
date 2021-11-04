@@ -17,24 +17,22 @@
         </section>
         <div class="main">
 
-    
+
 
             <div>
                 <h2>Tittle</h2>
-                <?php   
-                
-                
-                
-                
-                
+                <?php
+
+
+
+
+
                 ?>
-         
+
 
             </div>
 
 
-
-           
 
         </div>
         <section id="footer">
